@@ -206,10 +206,10 @@ class ProjectManager extends Instructor {
       this.favInstructor = obj.favInstructor;
     }
     standUp(channel){
-      returns `${this.name} announces to ${channel}, @channel standy times!`;
+      return `${this.name} announces to ${channel}, @channel standy times!`;
     }
-    debugsCode(obj, subject){
-      returns `${obj.name} debugs ${obj.name}'s code on ${subject}`
+    debugsCode(student, subject){
+      return `${this.name} debugs ${student.name}'s code on ${subject}`;
     }
 }
 
